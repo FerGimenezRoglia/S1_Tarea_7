@@ -25,7 +25,7 @@ public class OnsiteWorker2 extends Worker2{
 
     @Deprecated
     public void calculateBonuses() {
-        System.out.println("Deprecated methot");
+        System.out.println("Deprecated methot ");
     }
 
     @Override
