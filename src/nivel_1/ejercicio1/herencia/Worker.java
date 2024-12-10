@@ -20,6 +20,7 @@ public abstract class Worker {
         return surname;
     }
 
+
     public abstract double calculateSalary(int hoursWorked);
 
     @Override

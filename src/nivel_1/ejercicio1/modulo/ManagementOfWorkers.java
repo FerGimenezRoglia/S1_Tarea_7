@@ -130,17 +130,14 @@ public class ManagementOfWorkers {
 
         try {
 
-            System.out.print("Is the worker Online or Onsite? (1: Online, 2: Onsite): ");
-            int workerType = sc.nextInt();
-
-            if (workerType == 1 && worker instanceof OnlineWorker) {
+            if (worker instanceof OnlineWorker) {
                 System.out.print("Enter monthly hours worked: ");
                 int hoursWorked = sc.nextInt();
 
                 double salary = worker.calculateSalary(hoursWorked);
                 System.out.println("Calculated Salary for Online Worker " + worker.getName() + ": " + salary);
 
-            } else if (workerType == 2 && worker instanceof OnsiteWorker) {
+            } else if (worker instanceof OnsiteWorker) {
                 System.out.print("Enter monthly hours worked: ");
                 int hoursWorked = sc.nextInt();
 

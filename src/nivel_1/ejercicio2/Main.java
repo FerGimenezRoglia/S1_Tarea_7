@@ -4,6 +4,7 @@ import nivel_1.ejercicio2.herencia.OnlineWorker2;
 import nivel_1.ejercicio2.herencia.OnsiteWorker2;
 import nivel_1.ejercicio2.modulo.ManagementOfWorkers2;
 
+@SuppressWarnings("deprecation")
 public class Main {
     public static void main(String[] args) {
 
