@@ -20,7 +20,7 @@ public class OnsiteWorker2 extends Worker2{
     @Override
     public double calculateSalary(int hoursWorked) {
 
-        return (hoursWorked + super.hourlyRate) + fuel;
+        return (hoursWorked * super.hourlyRate) + fuel;
     }
 
     @Deprecated

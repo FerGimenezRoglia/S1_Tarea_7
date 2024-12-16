@@ -1,7 +1,5 @@
 package nivel_1.ejercicio2.herencia;
 
-import nivel_1.ejercicio2.herencia.Worker2;
-
 public class OnlineWorker2 extends Worker2 {
 
     private static final double INTERNET_RATE = 50.0;
@@ -18,7 +16,7 @@ public class OnlineWorker2 extends Worker2 {
     @Deprecated
     public void calculateOvertime(int overtimeHours) {
         double overtimePay = overtimeHours * (hourlyRate * 1.5);
-        System.out.println("\nDeprecated methot:  _ Over time pay: " +overtimePay);
+        System.out.println("Deprecated methot:  _ Over time pay: " +overtimePay);
     }
 
     @Override
